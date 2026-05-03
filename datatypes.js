@@ -8,6 +8,15 @@ let d;
 console.log(d);
 //bigint
 
+/* primative  and non primative
+ 7 types : string , number , boolean , null , undefined , symbol, bigint 
+
+ // reference ( non primative )
+  
+ array , objects , functions 
+
+*/
+
 
 /* ******** Conversion *************** */
 let n = 10
@@ -52,5 +61,13 @@ console.log(undefined >0);//false
 console.log(undefined <0);//false
 
 
+const id = Symbol("123")
+const anotherId = Symbol("123")
+
+console.log(id ===anotherId) // false because symbol is unique and immutable
 
 
+const ids = Symbol.for("123")
+const anotherIds = Symbol.for("123")
+    console.log(ids ===  anotherIds); // true 
+    
