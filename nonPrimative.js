@@ -55,6 +55,13 @@ console.log(nam.indexOf('r'));
 console.log(nam.replace('h','hna'));
 
 
+let g = 9.8
+console.log(g.toFixed(2)); // 9.80
+console.log(g.toExponential(2)); // 9.80e+0
+console.log(g.toPrecision(3)); // 9.80  
+console.log(g.toString().length);
+g = 10000
+console.log(g.toLocaleString('en-IN')); // 10,000
 
 
 
