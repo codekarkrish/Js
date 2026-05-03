@@ -37,3 +37,28 @@ console.log(one.pin);
 console.log(two.email);
 
 
+// concatinations 
+
+const name ="krish"
+const repoCount = " 50"
+// string concatination
+console.log(name + repoCount);// old methods
+
+console.log(`hello my name is ${name} and i have ${repoCount} repository`);
+
+let nam = new String("krish")
+console.log(nam); // String {"krish"}  this is an object not a primitive string
+console.log(nam.__proto__);
+console.log(nam.length);
+console.log(nam.toUpperCase());
+console.log(nam.indexOf('r'));
+console.log(nam.replace('h','hna'));
+
+
+
+
+
+
+
+
+
