@@ -58,4 +58,15 @@ console.log(course.duration);// 3 months
 const { courseName, duration, instructor } = course; // destructuring assignment
 console.log(courseName);
 
-
+//json 
+// {  "string": "Any thing no. , boolean, array, object",
+//     "name": "Alice",
+//     "age": 28,
+//     "isStudent": false,
+//     "courses": ["math", "physics", "chemistry"],
+//     "address": {
+//         "street": "123 Main St",
+//         "city": "Anytown",
+//         "country": "USA"
+//     }
+// }
